@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Screen Recorder</title>
+    </head>
+    <style>
+     body {
+         font-size: 14px;
+         font-family: arial;
+         text-align: center;
+         margin-top: 5em;
+     }
+     body button{
+         font-size: 3em;
+         font-weight: bold;
+         border: 2px solid black;
+         padding: 0.7em;
+         border-radius: 0.2em;
+         box-shadow: 0.2em 0.2em 0.4em #777;
+     }
+     body button:hover {
+         box-shadow: 0.3em 0.3em 0.4em #777;
+     }
+    </style>
+    <body>
+
+      <h1>The button below will start recording your screen/tab/window and when you stop sharing it'll download the recording as a video</h1>
+      <p>
+        <button id="start">Start Recording</button>
+      </p>
+
+      <p>
+        This page: <br/>
+        Doesn't depend on any server or company to provide this service. <br/>
+        Doesn't send your screen content to any other machine. <br/>
+        Doesn't use any library or framework. just your browser features. <br/>
+        Is not intended for lengthy recording as your browser and machine has their limitations. <br/>
+      </p>
+
+      <p style="font-size:0.7em">
+        Most of this program code is copied from <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture" >MDN</a>
+      </p>
+
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
